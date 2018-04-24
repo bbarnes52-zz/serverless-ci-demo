@@ -1,0 +1,3 @@
+apache_beam==2.4.0
+tensorflow==1.7.0
+tensorflow_trasnform==0.6.0
