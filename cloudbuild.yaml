@@ -10,5 +10,5 @@ steps:
     name: gcr.io/$PROJECT_ID/ice-cream-sales
     args: ['./src/test.py']
     entrypoint: 'pylint'
-    waitFor:
-      - build-builder
+    #waitFor:
+    #  - build-builder
