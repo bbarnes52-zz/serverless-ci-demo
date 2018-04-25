@@ -8,7 +8,7 @@ steps:
   # Linting
   - id: lint
     name: gcr.io/$PROJECT_ID/ice-cream-sales
-    args: ['./src/preprocess.py']
+    args: ['./src/test.py']
     entrypoint: 'pylint'
     waitFor:
       - build-builder
