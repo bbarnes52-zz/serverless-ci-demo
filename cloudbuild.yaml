@@ -1,9 +1,9 @@
 steps:
 
   # Building
-  - id: build-builder
-    name: gcr.io/cloud-builders/docker
-    args: ['build', '--rm=false', '-t', 'gcr.io/$PROJECT_ID/ice-cream-sales', '-f', 'Dockerfile.builder', '.']
+  #- id: build-builder
+  #  name: gcr.io/cloud-builders/docker
+  #  args: ['build', '--rm=false', '-t', 'gcr.io/$PROJECT_ID/ice-cream-sales', '-f', 'Dockerfile.builder', '.']
 
   # Linting
   - id: lint
