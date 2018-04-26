@@ -20,10 +20,12 @@ module.exports.subscribe = (event, callback) => {
   }
 
   octokit.repos.createStatus({
+    // TODO(bgb): Add `description` field for GitHub UI.
     owner: 'bbarnes52',
     repo: 'ice-cream-sales',
     sha: build.sourceProvenance.resolvedRepoSource.commitSha,
-    state: build.status.toLowerCase()
+    state: build.status.toLowerCase(),
+    target_url: build.logUrl
   });
 };
 
