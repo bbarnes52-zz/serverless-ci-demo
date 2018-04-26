@@ -8,6 +8,6 @@ steps:
   # Linting
   - id: lint
     name: gcr.io/$PROJECT_ID/ice-cream-sales
-    entrypoint: './lint.sh'
+    args: ['lint.sh']
     waitFor:
       - build-builder
