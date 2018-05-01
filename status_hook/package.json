@@ -4,6 +4,7 @@
   "description": "GitHub integration for Google Cloud Container Builder",
   "main": "index.js",
   "dependencies": {
-    "@octokit/rest": "15.2.6"
+    "@octokit/rest": "15.2.6",
+    "@google-cloud/storage": "1.6.0"
   }
 }
