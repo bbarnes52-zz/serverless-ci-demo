@@ -1,0 +1,18 @@
+{
+  "policy": {
+    "bindings": [
+      {
+        "role": "roles/owner",
+        "members": [
+          "user:bgb@google.com",
+          "user:ryanmcdowell@google.com",
+          "user:rasmi@google.com"
+        ]
+      },
+      {
+        "role": "roles/viewer",
+        "members": ["serviceAccount:pso-data-ml@appspot.gserviceaccount.com"]
+      }
+    ]
+  }
+}
