@@ -1,1 +1,1 @@
-# Ice Cream Sales Example
+# Serverless Continuous Integration on GCP
